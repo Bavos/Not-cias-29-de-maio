@@ -1,0 +1,23 @@
+{
+  "name": "projeto-remotion-news-vertical",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vídeo jornalístico vertical de 45 segundos criado com Remotion, React e TypeScript.",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "remotion studio src/index.ts",
+    "build": "remotion bundle src/index.ts",
+    "render": "remotion render src/index.ts NewsVideo out/final-news-video.mp4 --codec=h264 --overwrite"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.468",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "remotion": "^4.0.468"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.8.0"
+  }
+}
