@@ -8,6 +8,33 @@ import {Closing} from './Closing';
 import {Intro} from './Intro';
 import {WorldNews} from './WorldNews';
 
+const Clock: React.FC = () => {
+  const frame = useCurrentFrame();
+  const seconds = Math.floor(frame / 30);
+  const label = `00:${String(seconds).padStart(2, '0')}`;
+
+  return (
+    <div
+      style={{
+        position: 'absolute',
+        top: 92,
+        right: 76,
+        borderRadius: 999,
+        padding: '12px 20px',
+        color: '#dce8f7',
+        background: 'rgba(2, 8, 18, 0.48)',
+        border: '1px solid rgba(255,255,255,0.13)',
+        fontFamily: 'Inter, Arial, sans-serif',
+        fontSize: 22,
+        fontWeight: 760,
+        letterSpacing: 1.2,
+      }}
+    >
+      {label}
+    </div>
+  );
+};
+
 const EditorialOverlay: React.FC = () => {
   const frame = useCurrentFrame();
   const scan = interpolate(frame % 180, [0, 180], [-220, 1920], {
@@ -56,6 +83,7 @@ export const NewsVideo: React.FC = () => {
       <Sequence from={1200} durationInFrames={150}>
         <Closing />
       </Sequence>
+      <Clock />
       <BreakingBanner text={news.ticker} />
     </AbsoluteFill>
   );
