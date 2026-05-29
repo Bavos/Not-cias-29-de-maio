@@ -1,0 +1,71 @@
+{
+  "date": "29 de Maio de 2026",
+  "headline": "RESUMO DAS NOTÍCIAS",
+  "subtitle": "Brasil e Mundo • 29 de Maio de 2026",
+  "ticker": "Brasil • Economia • Política • Mundo • Saúde",
+  "sections": [
+    {
+      "label": "BLOCO BRASIL",
+      "region": "Brasil",
+      "items": [
+        {
+          "number": "1",
+          "title": "Lula prepara estratégia eleitoral após aprovação da PEC 6x1",
+          "bullets": [
+            "Governo pretende usar o fim da escala 6x1 como vitrine política.",
+            "Pacote econômico pode movimentar até R$ 200 bilhões.",
+            "Economistas alertam para possível pressão inflacionária."
+          ]
+        },
+        {
+          "number": "2",
+          "title": "Último dia para declarar o Imposto de Renda",
+          "bullets": [
+            "Prazo encerra às 23h59.",
+            "Multas para quem perder o prazo.",
+            "Receita libera primeiro lote de restituição."
+          ]
+        },
+        {
+          "number": "3",
+          "title": "EUA classificam PCC e Comando Vermelho como grupos terroristas",
+          "bullets": [
+            "Medida amplia mecanismos internacionais de bloqueio financeiro.",
+            "Repercussão internacional imediata."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "BLOCO MUNDO",
+      "region": "Mundo",
+      "items": [
+        {
+          "number": "4",
+          "title": "Tensão aumenta após ataques próximos ao Estreito de Ormuz",
+          "bullets": [
+            "EUA confirmam bombardeios contra alvos iranianos.",
+            "Mídia estatal iraniana afirma ter abatido aeronave americana.",
+            "Casa Branca ainda não confirmou a informação."
+          ]
+        },
+        {
+          "number": "5",
+          "title": "Chile decreta emergência ambiental em Santiago",
+          "bullets": [
+            "Poluição atinge níveis críticos.",
+            "Restrições ao trânsito e à atividade industrial."
+          ]
+        },
+        {
+          "number": "6",
+          "title": "Dia Mundial da Saúde Digestiva",
+          "bullets": [
+            "Campanhas globais incentivam diagnóstico precoce.",
+            "Foco em doenças inflamatórias intestinais e má absorção de nutrientes."
+          ]
+        }
+      ]
+    }
+  ]
+}
