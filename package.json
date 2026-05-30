@@ -1,13 +1,14 @@
 {
-  "name": "projeto-remotion-news-vertical",
+  "name": "ai-briefing-remotion-vertical",
   "version": "1.0.0",
   "private": true,
-  "description": "Vídeo jornalístico vertical de 45 segundos criado com Remotion, React e TypeScript.",
+  "description": "Vídeo vertical de 45 segundos em Remotion sobre o briefing de IA de 29/05/2026.",
   "license": "UNLICENSED",
   "scripts": {
     "dev": "remotion studio src/index.ts",
     "build": "remotion bundle src/index.ts",
-    "render": "remotion render src/index.ts NewsVideo out/final-news-video.mp4 --codec=h264 --overwrite"
+    "render": "remotion render src/index.ts AIBriefingVideo remotion/renders/ai-briefing-2026-05-29.mp4 --codec=h264 --overwrite",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@remotion/cli": "^4.0.468",
