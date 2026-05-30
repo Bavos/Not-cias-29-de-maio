@@ -22,11 +22,14 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Typecheck
+        run: npm run typecheck
+
       - name: Render video
         run: npm run render
 
       - name: Upload final video
         uses: actions/upload-artifact@v4
         with:
-          name: final-news-video
-          path: out/final-news-video.mp4
+          name: ai-briefing-2026-05-29
+          path: remotion/renders/ai-briefing-2026-05-29.mp4

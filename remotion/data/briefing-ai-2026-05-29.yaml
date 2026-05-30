@@ -1,0 +1,60 @@
+title: "Briefing IA"
+date: "2026-05-29"
+durationSeconds: 45
+style:
+  format: "vertical"
+  resolution: "1080x1920"
+  fps: 30
+  audio: false
+  theme: "Google colors, viral TikTok, young tech fonts"
+sections:
+  - topic: "Investimentos e Mercado de IA"
+    items:
+      - title: "Anthropic capta US$ 65 bilhões"
+        highlight: "Valuation de US$ 965 bilhões"
+        phrase: "Anthropic fica a um passo do valuation de US$ 1 trilhão."
+        hashtags: ["#Anthropic", "#ClaudeAI", "#IA", "#Startups"]
+      - title: "Dell cresce 757% em servidores para IA"
+        highlight: "Infraestrutura virou o novo ouro"
+        phrase: "A revolução da IA impulsiona gigantes da infraestrutura."
+        hashtags: ["#Dell", "#DataCenter", "#AIInfrastructure"]
+  - topic: "IA, Governo e Sociedade"
+    items:
+      - title: "TSE cria comissão permanente para IA"
+        highlight: "Eleições 2026"
+        phrase: "O Brasil se prepara para os desafios da IA nas eleições."
+        hashtags: ["#TSE", "#Eleicoes2026", "#RegulacaoIA"]
+      - title: "Debate global sobre ética em IA"
+        highlight: "Tecnologia centrada no humano"
+        phrase: "A discussão sobre IA ultrapassou o setor tecnológico."
+        hashtags: ["#EticaIA", "#HumanCenteredAI"]
+  - topic: "Ferramentas e Desenvolvimento"
+    items:
+      - title: "OpenAI Codex 0.135.0"
+        highlight: "Mais produtividade para devs"
+        phrase: "Codex recebe melhorias no modo Vim e diagnósticos."
+        hashtags: ["#OpenAI", "#Codex", "#DevTools"]
+      - title: "Hermes Agent v0.15.0"
+        highlight: "Núcleo 76% menor"
+        phrase: "Arquitetura mais leve, segura e multiagente."
+        hashtags: ["#HermesAgent", "#AgenticAI"]
+      - title: "Multica v0.3.11"
+        highlight: "Autenticação automática"
+        phrase: "Mais estabilidade para agentes e runtimes MCP."
+        hashtags: ["#Multica", "#MCP"]
+  - topic: "Ecossistema de Agentes IA"
+    items:
+      - title: "Moltbook passa de 1,5 milhão de agentes"
+        highlight: "A internet dos agentes"
+        phrase: "E se a internet fosse feita para agentes de IA?"
+        hashtags: ["#Moltbook", "#AgentesIA"]
+  - topic: "GEO e Visibilidade para IA"
+    items:
+      - title: "Brasil GEO"
+        highlight: "SEO está virando GEO"
+        phrase: "Marcas precisam aparecer nas respostas geradas por IA."
+        hashtags: ["#GEO", "#MarketingDigital"]
+      - title: "Teia GEO IGO"
+        highlight: "Auditoria para LLMs"
+        phrase: "Governança de IA ganha força com auditoria contínua."
+        hashtags: ["#LLM", "#GovernancaIA"]
